@@ -1,0 +1,27 @@
+Here's the content for your `requirements.txt` file. This file lists all the necessary Python packages to run both the `train.py` and `data_prep.py` scripts.
+
+-----
+
+```
+#
+# YOLOv8 Training & Data Preparation Dependencies
+#
+
+# The core package for YOLOv8 by Ultralytics.
+# This also installs torch, torchvision, numpy, opencv-python, and other essential libraries.
+ultralytics>=8.0.0
+
+# Used in data_prep.py for creating the dataset YAML file.
+PyYAML>=6.0
+
+# Used in data_prep.py for displaying progress bars.
+tqdm>=4.60.0
+
+# Used in data_prep.py for robustly reading image dimensions.
+Pillow>=9.0.0
+
+# NOTE: The 'ultralytics' package will automatically install a compatible version of PyTorch.
+# If you need a specific version for your GPU (e.g., with a specific CUDA version),
+# it is recommended to install PyTorch manually by following the instructions on the official PyTorch website:
+# https://pytorch.org/get-started/locally/
+```
