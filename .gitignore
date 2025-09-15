@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# Large files & datasets
+*.pt
+*.pth
+/datasets/
+
+# IDE specific
+.idea/
+.vscode/
